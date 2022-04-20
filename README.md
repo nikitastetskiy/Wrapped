@@ -1,2 +1,7 @@
 # Wrapped
-Wrapped va a ser una aplicación web que nos va a intentar resumir noticias de la forma más fácil posible.
+
+> Proyecto que pertenece a la materia Trabajo Fin de Grado (TFG).
+
+## Descripción
+
+Esta API web se basará en la consulta de trends o noticias.
