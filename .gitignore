@@ -1,0 +1,11 @@
+# secret info and keys for twitter API
+
+.env
+
+# stuff I don't need for the moment
+
+*json
+
+# python stuff
+
+__pycache__
