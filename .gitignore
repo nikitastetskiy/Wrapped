@@ -5,7 +5,9 @@
 # stuff I don't need for the moment
 
 *json
+.tox
 
 # python stuff
 
 __pycache__
+.coverage
