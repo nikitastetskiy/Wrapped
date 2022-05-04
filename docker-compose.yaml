@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  wrapper: &wrapper
+    build:
+      context: ./
+      dockerfile: ./compose/Dockerfile
