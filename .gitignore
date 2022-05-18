@@ -4,7 +4,8 @@
 
 # stuff I don't need for the moment
 
-*json
+twitter*json
+available*json
 .tox
 node_modules
 

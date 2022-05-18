@@ -1,0 +1,108 @@
+[
+   {
+     "spain": [
+       {
+         "Trend sobre Michael Jordan": [
+           {
+             "title": "Michael Jordan",
+             "summary": "Michael Jeffrey Jordan es un exjugador de baloncesto estadounidense. Con 1,98 metros de altura, jugaba en la posición de escolta...​",
+             "image": "imagen_1",
+             "popularity": 20020,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_2",
+             "summary": "New_2_Summary",
+             "image": "imagen_2",
+             "popularity": 20021,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_3",
+             "summary": "New_3_Summary",
+             "image": "imagen_3",
+             "popularity": 240021,
+             "source": "New York Times"
+           }
+         ]
+       },
+       {
+         "spain_trend_2": [
+           {
+             "title": "New_1",
+             "summary": "New_1_Summary",
+             "image": "imagen_1",
+             "popularity": 20020,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_2",
+             "summary": "New_2_Summary",
+             "image": "imagen_2",
+             "popularity": 20021,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_3",
+             "summary": "New_3_Summary",
+             "image": "imagen_3",
+             "popularity": 240021,
+             "source": "New York Times"
+           }
+         ]
+       }
+     ],
+     "ukraine": [
+       {
+         "ukraine_trend_1": [
+           {
+             "title": "New_1",
+             "summary": "New_1_Summary",
+             "image": "<img src = ../../public/img_news.png>",
+             "popularity": 20020,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_2",
+             "summary": "New_2_Summary",
+             "image": "<img src = ../../public/img_news.png>",
+             "popularity": 20021,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_3",
+             "summary": "New_3_Summary",
+             "image": "../../public/img_news.png",
+             "popularity": 240021,
+             "source": "New York Times"
+           }
+         ]
+       },
+       {
+         "ukraine_trend_2": [
+           {
+             "title": "New_1",
+             "summary": "New_1_Summary",
+             "image": "imagen_1",
+             "popularity": 20020,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_2",
+             "summary": "New_2_Summary",
+             "image": "imagen_2",
+             "popularity": 20021,
+             "source": "New York Times"
+           },
+           {
+             "title": "New_3",
+             "summary": "New_3_Summary",
+             "image": "imagen_3",
+             "popularity": 240021,
+             "source": "New York Times"
+           }
+         ]
+       }
+     ]
+   }
+ ]
