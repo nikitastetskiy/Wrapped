@@ -6,6 +6,7 @@
 
 *json
 .tox
+node_modules
 
 # python stuff
 
