@@ -2,13 +2,13 @@
 <div class="text-gray-900 font-sans">
     <div class="flex-1 flex-wrap">
         <div class="w-full h-5/6 text-left">
-            <a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-                <div class="relative pb-56 overflow-hidden">
-                <img class="absolute inset-0 h-full w-full object-cover" src="./../assets/img_news.png" alt="">
+            <a href="" class="c-card block bg-white rounded-2xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl overflow-hidden">
+                <div class="relative pb-52 overflow-hidden m-2">
+                <img class="absolute inset-0 h-full w-full object-cover bg-green-300 border-white rounded-2xl " src="./../assets/img_news.png" alt="">
                 </div>
-                <div class="p-4 h-36">
+                <div class="p-4 h-48">
                 <h2 class="mt-1 mb-1 font-bold"> {{title}} </h2>
-                <p class="text-sm">{{summary}}</p>
+                <p class="text-sm truncador">{{summary}}</p>
                 </div>
                 <div class="p-4 border-t border-b text-sm text-gray-700">
                 <span class="mb-1">
@@ -35,18 +35,14 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only 
-<style scoped>
-.c-card {
-  img {    
-    transition: transform .3s ease-in-out; 
-  }
-  
-  &:hover {
-    img {
-      transform: scale(1.05)
-    }
-  }
+<style>
+
+.truncador {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  -webkit-margin-collapse:discard;
 }
+
 </style>
--->
