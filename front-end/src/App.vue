@@ -22,7 +22,22 @@ export default {
   color: #2c3e50;
 }
 
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background: #EEEEE3;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+}
+
 html {
-  box-sizing: border-box;
+  height: fill-available;
+  height: -webkit-fill-available;
+  scroll-behavior: smooth;
 }
 </style>
