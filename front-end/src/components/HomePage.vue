@@ -7,9 +7,9 @@
     <div v-for="country in wrapped"> <div v-for="trend, key in country"> <div v-for="news, key in trend">
           <div class="snap-center flex flex-col">
             <ul v-for="ne, key in news" class="flex flex-col alt-93 bottom-0 justify-end smh:justify-center sm:justify-center sm:y-14 sm:pt-7">
-              <div class="tip bottom px-2 pb-1 drop-shadow-md"><h2 class="font-serif tracking-wide text-gray-700 text-xl">{{key}}</h2></div>
-              <div class="flex sm:justify-center overflow-x-auto gap-6 snap-x snap-mandatory sm:snap-normal before:shrink-0 before:w-[20%] sm:before:w-[0%] after:shrink-0 after:w-[20%] sm:after:w-[0%] pt-7 sm:pb-14 pb-7">
-                <li v-for="n in ne" class="basis-4/5 sm:basis-3/12 lg:basis-2/12 shrink-0 snap-center sm:snap-align-none">
+              <div class="tip bottom px-2 pb-1 drop-shadow-md z-20"><h2 class="font-serif tracking-wide text-gray-700 text-xl">{{key}}</h2></div>
+              <div class="flex overflow-x-auto gap-6 snap-x snap-mandatory sm:snap-normal before:shrink-0 before:w-[20%] sm:before:w-[0%] after:shrink-0 after:w-[20%] sm:after:w-[0%] sm:horizontal sm:pb-14 pb-5">
+                <li v-for="n in ne" class="basis-4/5 sm:basis-3/12 xl:basis-2/12 shrink-0 snap-center sm:snap-align-none">
                   <CardViewer image="./../assets/img_news.png" :title='n.title' :summary='n.summary' :popularity='n.popularity' :source='n.source'/>
                 </li>
               </div>
@@ -44,6 +44,14 @@ export default {
     }
 }
 
+@media (min-width: 640px) {
+    .sm\:horizontal::before,
+    .sm\:horizontal::after {
+        content: '';
+        flex: 1;
+    }
+}
+
 header {
   background-color: #86EFAC;
   box-shadow: 0 1em 0.5em -0.5em rgba(126, 184, 124, 0.300);
@@ -74,8 +82,8 @@ header {
 .bottom:after {
         border-top-color: #BBF7D0;
         top: 100%;
-        left: 50%;
-        margin-left: -5%;
+        position: absolute;
+        margin: 0px -8px;
 }
 
 </style>
