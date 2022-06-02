@@ -27,17 +27,14 @@ export default {
   padding:0;
 }
 
-body{
-  background: #EEEEE3;
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -moz-available;
-  min-height: -webkit-fill-available;
+html {
+  height: 100%;
+  width: 100%;
 }
 
-html {
-  height: fill-available;
-  height: -webkit-fill-available;
-  scroll-behavior: smooth;
+body {
+  height: 100%;
+  width: 100%;
 }
+
 </style>

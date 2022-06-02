@@ -41,7 +41,7 @@ export default {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 8;
   -webkit-margin-collapse:discard;
 }
 
