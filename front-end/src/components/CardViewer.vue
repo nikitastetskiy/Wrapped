@@ -3,15 +3,15 @@
     <div class="flex-1 flex-wrap animation transform transition-all duration-300">
         <div class="num"> 1 </div>
         <div class="w-full h-4/6 text-left">
-            <a href="" class="c-card block bg-white rounded-2xl border-green-100 border-x border-b shadow-lg overflow-hidden animation-shadow transform transition-all duration-300">
+            <a href="" class="c-card block bg-white rounded-2xl border-amber-100 border-x border-b shadow-lg overflow-hidden animation-shadow transform transition-all duration-300">
                 <div class="relative pb-44 overflow-hidden m-2">
-                <img class="absolute inset-0 h-full w-full object-cover bg-green-300 border-white rounded-2xl " src="./../assets/img_news.png" alt="">
+                <img class="absolute inset-0 h-full w-full object-cover bg-amber-300 border-white rounded-2xl " src="./../assets/michael.jpg" alt="">
                 </div>
                 <div class="px-4 py-1 h-56 sm:h-52">
                 <h2 class="mt-1 mb-1 font-bold"> {{title}} </h2>
                 <p class="text-sm truncador">{{summary}}</p>
                 </div>
-                <div class="px-4 py-3 border-t border-b border-green-100 text-sm text-gray-700">
+                <div class="px-4 py-3 border-t border-b border-amber-100 text-sm text-gray-700">
                 <span class="mb-1">
                     <i class="mr-1 text-gray-900"></i> Popularity: {{popularity}}
                 </span>      
